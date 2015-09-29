@@ -1,0 +1,12 @@
+#zeoserver.yaml
+---
+
+classes:
+ - plone
+
+plone::type: 'zeo'
+plone::instances:
+  server:
+    port: 2500
+plone::bout_cache_file: "http://arquivos.interlegis.leg.br/interlegis/produtos/pacotes/buildout-cache.tar.gz"
+

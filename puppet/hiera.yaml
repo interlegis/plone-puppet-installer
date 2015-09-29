@@ -1,0 +1,9 @@
+# /etc/puppet/hiera.yaml
+---
+:backends:
+ - yaml
+:hierarchy:
+ - "%{::server_role}"
+:yaml:
+  :datadir: '/etc/puppet/hieradata'
+

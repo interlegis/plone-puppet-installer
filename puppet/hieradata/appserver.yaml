@@ -1,0 +1,10 @@
+#common.yaml
+---
+
+classes:
+ - plone::appserver
+
+plone::appserver::zeo_ip: "%{::db_host}"
+plone::appserver::zeo_port: 2500
+plone::appserver::numberInstances: "%{::number_instances}"
+plone::appserver::bout_cache_file: "http://arquivos.interlegis.leg.br/interlegis/produtos/pacotes/buildout-cache.tar.gz"

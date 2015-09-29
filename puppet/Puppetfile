@@ -1,0 +1,21 @@
+forge 'forge.puppetlabs.com'
+
+mod 'puppetlabs/stdlib'
+mod 'puppetlabs/concat'
+
+mod 'wget',
+  :git => 'https://github.com/example42/puppet-wget'
+
+mod 'python',
+  :git => 'git://github.com/stankevich/puppet-python.git',
+    :commit => '83f42940563d183593b0e091c314dbf1484fae1e'
+
+mod 'buildout',
+  :git => 'https://github.com/interlegis/puppet-buildout.git'
+
+mod 'plone',
+  :git => 'https://github.com/interlegis/puppet-plone.git'
+
+mod 'resource-looping',
+  :git => 'https://github.com/interlegis/puppet-resource-looping.git'
+
